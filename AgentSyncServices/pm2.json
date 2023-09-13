@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "node-omniyat-agency-sync",
+      "script": "dist/index.js",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 9000,
+        "DB_CONNECTION_STRING": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=144.21.67.79)(PORT=1533))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=omnipdb1.606532292.oraclecloud.internal)))",
+        "DB_PASSWORD": "omniyat123",
+        "DB_USER": "XXPM_TEST",
+        "DB_POOL_MIN": 10,
+        "DB_POOL_MAX": 20,
+        "DB_POOL_INC": 2,
+        "BASE_URL": "/api/omniyat",
+        "SALESFORCE_BASE_API": "https://4inew-omniyat1.cs92.force.com"
+      }
+    }
+  ]
+}
